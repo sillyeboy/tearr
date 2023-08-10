@@ -8,27 +8,27 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: '@swaz',
+      name: '@draco',
       link: 'x',
     },
     {
-      name: '@lia',
-      link: 'lia',
+      name: 'TBA',
+      link: '',
     },
     {
-      name: '@19k',
-      link: 'The19k',
+      name: 'TBA',
+      link: '',
     },
     {
-      name: '@z',
-      link: 'z',
+      name: 'TBA',
+      link: '',
     },
   ];
 
   for (let i in links) {
     let link = links[i];
 
-    $('#marquee').append(`<a href="https://bury.lol/${link.link}" target="_BLANK">${link.name}</a>`);
+    $('#marquee').append(`<a href="https://tear.wtf/${link.link}" target="_BLANK">${link.name}</a>`);
 
     link = $('#marquee').children('a').last();
 
